@@ -1,7 +1,7 @@
 package main
 
-type product struct {
-	id         int
+type Product struct {
+	ID         int
 	definition string
 	name       string
 	price      float64
