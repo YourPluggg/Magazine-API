@@ -1,8 +1,8 @@
 [
  {
-  "ID": 1,
-  "Definition": "Новый телефон",
-  "Name": "Iphone 16 ",
-  "Price": 15000
+  "ID": 2,
+  "Definition": "Ноутбук",
+  "Name": "MacBook Pro",
+  "Price": 2000
  }
 ]

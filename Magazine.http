@@ -1,0 +1,30 @@
+### Получить все товары
+GET http://localhost:8080/products
+Accept: application/json
+
+### Добавить товар
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+  "name": "MacBook Pro",
+  "definition": "Ноутбук",
+  "price": 2000
+}
+
+### Получить товар по ID
+GET http://localhost:8080/products/2
+Accept: application/json
+
+### Обновить товар
+PUT http://localhost:8080/products/1
+Content-Type: application/json
+
+{
+  "name": "MacBook Air",
+  "definition": "Лёгкий ноутбук",
+  "price": 1500
+}
+
+### Удалить товар
+DELETE http://localhost:8080/products/1

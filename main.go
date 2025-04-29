@@ -1,23 +1,3 @@
-/*package main
-
-import (
-	"encoding/json"
-	"net/http"
-	"strconv"
-)
-
-func main() {
-	service := NewProductService("products.json")
-
-	newProduct := Product{
-		Definition: "Новый телефон",
-		Name:       "Iphone 16 ",
-		Price:      15000,
-	}
-
-	service.Add(newProduct)
-}*/
-
 package main
 
 import (
