@@ -2,7 +2,7 @@ package main
 
 type Product struct {
 	ID         int
-	definition string
-	name       string
-	price      float64
+	Definition string
+	Name       string
+	Price      float64
 }
