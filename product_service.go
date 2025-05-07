@@ -1,14 +1,17 @@
 package main
 
 import (
+	"database/sql"
 	"encoding/json"
 	"errors"
-
+	_ "github.com/go-sql-driver/mysql"
 	//"errors"
 	"os"   //Чтение запись
 	"sort" //Сортировка слайсов
 	// для мьютексов, пока не используется "sync"
 )
+
+var database *sql.DB
 
 type ProductService struct {
 	filePath string

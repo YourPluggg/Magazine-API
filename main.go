@@ -1,12 +1,21 @@
 package main
 
 import (
+	"database/sql"
 	"encoding/json"
+	"log"
 	"net/http"
 	"strconv"
 )
 
 func main() {
+	db, err := sql.Open("mysql", "root:password@/productdb")
+
+	if err != nil {
+		log.Println(err)
+	}
+	database = db
+
 	service := NewProductService("products.json")
 
 	// Обработчик функции для нашего пути
